@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar {
+  background: crimson;
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.5s ease;
+}
+.navbar.sticky {
+  padding: 15px 0;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  font-family: "Barlow Condensed", sans-serif;
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 25px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  background-color: #fff;
+  border-radius: 8px;
+  color: black;
+}
+.navbar.sticky .menu li a:hover {
+  color: #fff;
+}
+
+/* signup-section Style */
+.signup {
+  background-image: url("../image/signup-background.jpg");
+  display: block;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  width: calc(100%);
+  font-family: "Ubuntu", sans-serif;
+}
+.signup .max-width {
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.signup-content {
+  background-color: #fffff0;
+  box-shadow: 5px 5px 3px rgb(0 0 0 / 15%);
+  border-radius: 0.75em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  align-items: center;
+  margin: 120px auto 50px auto;
+  align-items: center;
+}
+.signup-content h2 {
+  font-size: 29px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.signup-content label {
+  font-family: "Quintessential", cursive;
+}
+.signup-content .row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.signup-content input {
+  padding: 5px;
+}
+.signup-content input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+}
+.signup-content .row .fname {
+  width: 100%;
+  margin-right: 10px;
+}
+.signup-content .row .lname {
+  width: 100%;
+  margin-left: 10px;
+}
+.signup-content .email {
+  margin-top: 20px;
+  width: 100%;
+}
+.signup .email input {
+  width: 100%;
+}
+.signup-content .address {
+  margin-top: 20px;
+  width: 100%;
+}
+.signup .address input {
+  width: 100%;
+}
+.signup-content .City {
+  margin-top: 20px;
+  width: 100%;
+}
+.signup .City input {
+  width: 100%;
+}
+
+.signup #submit {
+  cursor: pointer;
+  border: 2px solid crimson;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: crimson;
+  transition: all 0.5s;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.signup #submit:hover {
+  background: none;
+  color: crimson;
+}

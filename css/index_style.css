@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Fjalla+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#loader {
+  width: 100%;
+  height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+.menu-btn {
+  display: none;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar {
+  background: crimson;
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.5s ease;
+  z-index:9999;
+}
+.navbar.sticky {
+  padding: 15px 0;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  font-family: "Barlow Condensed", sans-serif;
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 25px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  background-color: #fff;
+  border-radius: 8px;
+  color: black;
+}
+.navbar.sticky .menu li a:hover {
+  color: #fff;
+}
+
+/* home Page Css */
+.home {
+  display: flex;
+  background-image: url("../image/home_background.jpg");
+  height: 100vh;
+  min-height: 500px;
+  height: calc(85%);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .max-width {
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row {
+  margin-right: 0;
+}
+.home .home-content .text-1 {
+  font-size: 75px;
+  font-family: "Ubuntu Mono", monospace;
+  color: #fcded6;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-2 {
+  font-size: 27px;
+  color: #b1b7ff;
+  font-family: "Permanent Marker", cursive;
+}
+.home .home-content a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  font-family: "Barlow Condensed", sans-serif;
+  transition: all 0.3s ease;
+}
+.home .home-content a:hover {
+  color: crimson;
+  background: none;
+}
+
+/* offer section */
+.offers .title {
+  text-align: center;
+  font-family: "Supermercado One", cursive;
+  font-size: 35px;
+  margin-top: calc(3%);
+  color: crimson;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.offers .max1 {
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.offers .max2 {
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  margin-top: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.offers .offer {
+  padding: 20px;
+  margin-top: 20px;
+  width: calc(25%);
+  height: calc(30%);
+  transition: 0.5s;
+}
+.offers img {
+  width: 100%;
+  border-radius: 12px;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  filter: brightness(0.8);
+}
+.offers .offer:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  height: auto;
+}
+.offers .offer img:hover{
+  filter: brightness(1.1);
+  	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+	transform: scale(1.1);
+}
+
+/* Contect Style */
+.contect {
+  padding: calc(2%);
+}
+.contect .main {
+  border-radius: 18px;
+  display: flex;
+  background: #00000014;
+  justify-content: space-between;
+}
+.contect .main .right {
+  width: 60%;
+  background-color: #00000000;
+  border-radius: 18px;
+  padding: 40px;
+  padding-left: 60px;
+}
+.contect .main .right h2 {
+  text-align: center;
+  color: crimson;
+  font-size: 1.8rem;
+  font-family: "Supermercado One", cursive;
+}
+.contect .main .right input,
+.contect .main .right textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  margin: 10px;
+}
+.contect .main .right #submit {
+  width: 50%;
+  background-color: crimson;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Supermercado One", cursive;
+}
+.contect .main .left {
+  width: 40%;
+  background-color: rgba(17, 17, 17, 0.219);
+  border-radius: 18px;
+  padding: 40px;
+  padding-left: 60px;
+}
+.contect .main .left h2 {
+  text-align: center;
+  color: #ffffffa2;
+  font-size: 1.8rem;
+  font-family: "Supermercado One", cursive;
+}
+.contect .main .left i {
+  font-size: 25px;
+  padding: 10px;
+  color: #fff;
+}
+.contect .main .left p {
+  font-size: 20px;
+  margin: 10px;
+}
+.contect .main .left #p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111;
+  font-size: 1.2rem;
+  font-family: "Supermercado One", cursive;
+}
+
+/* Footer */
+footer {
+  background: #dbd0ff;
+  padding: 15px 23px;
+  color: #111;
+  text-align: center;
+}
+footer span a {
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
