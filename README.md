@@ -37,19 +37,19 @@ In Online Food Order Website for fronted we use HTML, CSS, JavaScript for backed
 
 Download Project with git clone 
 
-```bash
+```
   https://github.com/Jonsan01/Food-order-website-.git
 ```
 After Download Uploade 'Database.sql" file in PhpMyAdmin
-```bash
+```
   Database.sql
 ```
 After Change Database Info in "./phps/database.php"
-```bash
+```php
    return new mysqli("DB URL", "USER NAME", "ENTER DB PASSWORD", "DB NAME");
 ```
 Now Your Project Is Done
-```bash
+```
    run code in XAMPP Server
 ```
 ## <div align="center">Screenshorts</div>
