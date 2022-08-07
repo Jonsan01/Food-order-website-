@@ -16,7 +16,7 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
         if ($email == "jonsan@admin.com") {
-            if ($password == "Jonsan@7984") {
+            if ($password == "Admin__Password") {
                 if (!isset($_SESSION)) {
                     session_start();
                     $_SESSION['is_admin'] = true;
