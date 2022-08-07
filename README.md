@@ -1,10 +1,11 @@
-![Logo](https://user-images.githubusercontent.com/110719803/183276038-8f3b0506-c876-4249-b3e5-232008416589.png)
-# 🧑‍💻Food Order Website🧑‍💻
+<div align="center"><img src="https://user-images.githubusercontent.com/110719803/183276038-8f3b0506-c876-4249-b3e5-232008416589.png" /></div>
+
+## <div align="center">🧑‍💻Food Order Website🧑‍💻</div>
 
 In Online Food Order Website for fronted we use HTML, CSS, JavaScript for backed we use PHP And for database we use MySql.
 
 
-## Functionality 
+## <div align="center">Functionality</div>
 
 - User
 
@@ -32,7 +33,7 @@ In Online Food Order Website for fronted we use HTML, CSS, JavaScript for backed
     - Customer Care
     - And Many More*
 ```
-## How To Use
+## <div align="center"> How To Use </div>
 
 Download Project with git clone 
 
@@ -51,7 +52,7 @@ Now Your Project Is Done
 ```bash
    run code in XAMPP Server
 ```
-## Screenshorts
+## <div align="center">Screenshorts</div>
 
 - Home
 ![Home](https://user-images.githubusercontent.com/110719803/183275117-aebf562a-d8aa-4818-9a7a-1f6fa8640487.png)
@@ -87,11 +88,11 @@ Now Your Project Is Done
 
 
 
-## Copyright
+## <div align="center">Copyright</div>
 
 No Copyright. Free To Use For All User.
 
-## Authors
+## <div align="center">Authors</div>
 
 - [Jonsan Devganiya](https://github.com/Jonsan01)
 
