@@ -8,7 +8,7 @@ In Online Food Order Website for fronted we use HTML, CSS, JavaScript for backed
 
 - User
 
-```bash
+```
     - Register
     - Login
     - Forget password 
@@ -21,7 +21,7 @@ In Online Food Order Website for fronted we use HTML, CSS, JavaScript for backed
 
 - Admin
 
-```bash
+```
     - Admin Login
     - Check All User Information 
     - Edit User Information
